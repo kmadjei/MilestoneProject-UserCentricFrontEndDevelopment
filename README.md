@@ -80,4 +80,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - I received inspiration for this project from X
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.pn
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
