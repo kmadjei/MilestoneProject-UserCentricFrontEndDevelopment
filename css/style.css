@@ -1,0 +1,78 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+
+/* Reset for all elements */
+*{
+    background-origin: border-box;
+    padding: 0 ;
+    margin: 0 ;
+}
+
+/* BASE styling*/
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color:#2F4F4F;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #047aed;
+    color: #fff;
+}
+
+header a {
+    color: #fff;
+}
+
+#nav-container {
+    max-width: 1024px; 
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.logo a{
+    font-family: 'Mrs Saint Delafield', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    margin: 0 !important;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
