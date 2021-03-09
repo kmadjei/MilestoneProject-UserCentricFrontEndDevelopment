@@ -35,6 +35,7 @@ header {
     top: 0;
     background-color: #047aed;
     color: #fff;
+    z-index: 1;
 }
 
 header a {
@@ -70,9 +71,31 @@ nav ul li {
     margin-right: 10px;
 }
 
+/* HOME */
+#home {
 
+    /* 
+    hero-img src - https://www.pexels.com/photo/matrix-background-1089438/
+    */
+    background-image: url('../assets/images/hero-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; /* 100% viewport height*/   
+    position: relative;
+}
 
-
-
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    max-width: 1024px;
+}
 
 
