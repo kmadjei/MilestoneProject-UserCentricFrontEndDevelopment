@@ -62,6 +62,10 @@ header a {
     letter-spacing: 3px;
 }
 
+header .logo a:hover {
+    color: #fff;
+}
+
 nav ul {
     margin: 0 !important;
 }
@@ -73,7 +77,6 @@ nav ul li {
 
 /* HOME */
 #home {
-
     /* 
     hero-img src - https://www.pexels.com/photo/matrix-background-1089438/
     */
@@ -91,11 +94,46 @@ nav ul li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 64px;
+    margin: auto;
     color: #fff;
     background-color: rgba(0,0,0,0.5);
     height: 100%;
     max-width: 1024px;
+    text-align: center;
+}
+
+.home-container i {
+    color: #FFFF00;
+}
+
+.home-container h1{
+    font-size: 64px;
+}
+
+.home-container h1 span {
+    /* color: #047aed; */
+    color:#87CEFA;
+    font-weight: 900;
+    font-size: 64px;
+}
+
+.home-container p {
+    font-size: 30px;
 }
 
 
+.home-container .botton {
+    margin-top: 2%;
+    color: #fff;
+    background-color: #047aed;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.home-container .botton i {
+    color: #fafafa;
+}
+
+.home-container .botton:hover {
+    background-color: rgba(4,122,237, 0.5);
+}
