@@ -137,3 +137,81 @@ nav ul li {
 .home-container .botton:hover {
     background-color: rgba(4,122,237, 0.5);
 }
+
+/* ABOUT */
+#about {
+    max-width: 1024px;
+    padding: 10px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+#about article {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+}
+
+.about-img {
+    padding: 0 10px;
+    /* position: relative;
+    height: 100%;
+    width: 100%;
+    */
+    /* Code block idea from Bedimcode */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+    overflow: hidden;
+
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+}
+
+.img-block {
+    /* display: block;
+    
+    padding-top: 1rem;
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 50%; */
+}
+
+.about-img img {
+    /* display: block;
+    margin: auto; */
+}
+
+.about-content {
+    padding: 0 10px;
+}
+
+.about-content .contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contact .resume-btn {
+    display: block;
+}
+
+.about-content .contact strong {
+    display: block;
+}
+
+.blue-email {
+    color:#047aed;
+}
+
+.contact .socials a {
+    margin-right: 10px;
+    font-size: 25px;
+}
