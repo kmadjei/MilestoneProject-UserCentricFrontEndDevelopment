@@ -12,7 +12,7 @@
 /* BASE styling*/
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    color:#2F4F4F;
+    color:#708090;
 }
 
 ul {
@@ -111,7 +111,6 @@ nav ul li {
 }
 
 .home-container h1 span {
-    /* color: #047aed; */
     color:#87CEFA;
     font-weight: 900;
     font-size: 64px;
@@ -149,45 +148,34 @@ nav ul li {
     text-align: center;
     margin: 30px 0;
     font-weight: bold;
+    position: relative;
+    color: #000;
+}
+
+.section-title::after {
+    /* Code Idea from Bedimcode portfolio video */
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    left: 0;
+    right: 0;
+    top: 40px;
+    margin: auto;    
+    background-color: #2196F3;
 }
 
 #about article {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #2196F3;
+}
+
+.about-content h3 {
+    font-weight: bold;
 }
 
 .about-img {
     padding: 0 10px;
-    /* position: relative;
-    height: 100%;
-    width: 100%;
-    */
-    /* Code block idea from Bedimcode */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    
-    overflow: hidden;
-
-    border: 1px solid rgba(0, 0, 0, 0.8); */
-}
-
-.img-block {
-    /* display: block;
-    
-    padding-top: 1rem;
-    width: 120px;
-    height: 120px;
-    background-color: red;
-    border-radius: 50%; */
-}
-
-.about-img img {
-    /* display: block;
-    margin: auto; */
 }
 
 .about-content {
@@ -199,15 +187,28 @@ nav ul li {
     grid-template-columns: 50% 50%;
 }
 
-.contact .resume-btn {
-    display: block;
+#about .resume-btn a {    
+    color: #fff;
+    background-color: #FFA500;
+    border-radius: 5px 20px;
+    padding: 10px;
+    margin-top: -100px;
 }
+
+#about .resume-btn a:hover {
+    background-color: #fff;
+    color:#708090;    
+    font-weight: bold;
+    border: 2px dashed #FFA500;
+    transition: 1s;    
+}
+
 
 .about-content .contact strong {
     display: block;
 }
 
-.blue-email {
+.blue {
     color:#047aed;
 }
 
@@ -215,3 +216,37 @@ nav ul li {
     margin-right: 10px;
     font-size: 25px;
 }
+
+/* FOOTER */
+footer {
+    width: 100%;
+    /* background-color: #2A3B47; */
+    color: #fff;
+    background-color: #000080;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1024px;
+    padding: 10px;
+    margin: auto;
+}
+
+.footer-content h3 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-content section {
+    display: block;
+}
+
+.copy-right {
+    max-width: 1024px;
+    padding: 10px;
+    margin:auto;
+    background-color: #191970;
+    text-align: center;
+}
+
