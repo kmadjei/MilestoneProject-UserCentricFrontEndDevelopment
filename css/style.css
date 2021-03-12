@@ -153,6 +153,7 @@ nav ul li {
 }
 
 .section-title::after {
+
     /* Code Idea from Bedimcode portfolio video */
     position: absolute;
     content: "";
@@ -220,7 +221,6 @@ nav ul li {
 /* FOOTER */
 footer {
     width: 100%;
-    /* background-color: #2A3B47; */
     color: #fff;
     background-color: #000080;
 }
@@ -250,3 +250,24 @@ footer {
     text-align: center;
 }
 
+footer a i {
+    color:#fff;
+    font-size: 30px;
+    margin-right: 15px;
+
+    /* Code from MiniBootstrapProject Module - Code Institute */
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+footer a i:hover {
+    background-color: #fff;
+    color: #000080;
+    padding: 3px;
+}
+
+.footer-content section {
+    margin-right: 20px;
+}
