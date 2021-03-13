@@ -226,6 +226,13 @@ nav ul li {
 }
 
 
+/* PROJECTS */
+#projects {
+    max-width: 1024px;
+    padding: 10px;
+    margin: auto;
+}
+
 
 /* FOOTER */
 footer {
