@@ -247,6 +247,9 @@ nav ul li {
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
     border-radius: 8px;
     transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
 
@@ -270,12 +273,96 @@ nav ul li {
     margin: auto;
 }
 
+#projects .project-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* w3school fade in card overlay example
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
+*/
+.project-card {
+    position: relative;
+    height: 330px;
+    width: 300px;
+}
+  
+.project-card .project-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.project-card .card-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+  
+.project-card:hover .card-overlay {
+    opacity: 0.9;
+}
+
+.project-card:hover .text-overlay {
+    opacity: 1;
+    color: #fff;
+}
+  
+.project-card  .text-overlay {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* -------test------ */
+#projectModal .modal-content {
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+#projectModal .modal-header {
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    
+    background-color: yellow;
+    width: 100%;
+    height: 20%;
+}
+
+#projectModal .modal-body {
+    height: 60%;
+    width: 70%;
+    background-color: cyan;
+    margin: auto;
+    /* background-color: #fff; */
+}
 
 /* FOOTER */
 footer {
     width: 100%;
     color: #fff;
     background-color: #000080;
+    margin-top: 50px;
 }
 
 .footer-content {
