@@ -67,6 +67,8 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
+[PREVIEW](https://kmadjei.github.io/CSS-assignment/)
+
 
 ## Credits
 

@@ -289,23 +289,54 @@ nav ul li {
 .coding-card-container .coding-card {
     position: relative;
     width: 300px;
-    height: 350px;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    height: 300px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
     border-radius: 5px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .coding-card img {
-    opacity: 1;
     display: block;
     width: 100%;
     height: 100%;
-    transition: .5s ease;
-    backface-visibility: hidden;
+    transition: .3s ease;
 }
+
+.coding-card .info-overlay {
+    position: absolute;
+    bottom: 100%;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .4s ease;
+}
+
+.coding-card:hover img {
+    filter: blur(10px);
+}
+
+.coding-card:hover .info-overlay {
+    bottom: 0;
+}
+
+.challenge-title {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.coding-card {
+    
+}
+
   
-.middle {
-    transition: .5s ease;
+.coding-card .middle {
+    
     opacity: 0;
     position: absolute;
     top: 50%;
@@ -315,15 +346,13 @@ nav ul li {
     text-align: center;
 }
   
-.container:hover .image {
-    opacity: 0.3;
-}
+
   
-.container:hover .middle {
+.coding-card:hover .middle {
     opacity: 1;
 }
   
-.text {
+.coding-card .text {
     background-color: #4CAF50;
     color: white;
     font-size: 16px;
