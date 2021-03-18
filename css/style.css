@@ -50,13 +50,10 @@ header a {
     justify-content: space-between;
     align-items: center;
     height: 64px;
+    padding: 10px;
 }
 
-.logo {
-    margin-left: 10px;
-}
-
-.logo a{
+.logo a {
     font-family: 'Mrs Saint Delafield', sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
@@ -105,6 +102,7 @@ nav ul li {
     height: 100%;
     max-width: 1024px;
     text-align: center;
+    padding: 10px;
 }
 
 .home-container i {
@@ -470,10 +468,6 @@ footer {
     text-transform: uppercase;
 }
 
-.footer-content section {
-    display: block;
-}
-
 .copy-right {
     max-width: 1024px;
     padding: 10px;
@@ -502,4 +496,55 @@ footer a i:hover {
 
 .footer-content section {
     margin-right: 20px;
+}
+
+/* ======= MEDIA QUERIES - Responsive mobile design ======= */
+
+/* For small devices */
+
+@media screen and  (max-width: 768px) {
+    #about article {
+        grid-template-columns: auto;
+    }
+
+    .about-img {
+        align-self: center;
+        justify-self: center;
+        margin-bottom: 15px;
+    }
+
+    .about-img img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #home .home-container {
+        font-size: 4vw ;
+    }
+
+    .home-container h1, .home-container h1 span {
+        font-size: 10vw;
+    }
+
+    .home-container p {
+        font-size: 5vw;
+    }
+
+    .about-img img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    #about .contact {
+        grid-template-columns: auto;
+
+    }
+
+    .footer-content {
+        grid-template-columns: auto;
+    }
 }
