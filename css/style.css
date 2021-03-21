@@ -44,38 +44,29 @@ header a {
 
 #nav-container {
     max-width: 1024px;
-    position: relative;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 64px;
     padding: 10px;
 }
 
-.logo a {
+#nav-container .logo {
     font-family: 'Mrs Saint Delafield', sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
 }
 
-header .logo a:hover {
+#nav-container .logo:hover {
     color: #fff;
+    border: none;
 }
 
-nav a:hover {
+#nav-container a:hover {
     color: yellow;
     border-bottom: 3px solid #fff;
 }
 
-nav ul {
-    margin: 0 !important;
+.navbar-toggler i {
+    color: #fff;
 }
 
-nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
 
 /* HOME */
 #home {

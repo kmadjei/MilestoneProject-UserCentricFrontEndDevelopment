@@ -27,9 +27,44 @@
   </head>
   <body>
     
-    <!-- HEADER / NAVIGATION -->
+    <!-- HEADER / NAVIGATION - with Bootstrap 4 -->
     <header>
-      <div class="nav-container" id="nav-container">
+
+      <nav id="nav-container" class="navbar navbar-expand-sm mx-auto ">
+        <!-- Brand -->
+        <a class="navbar-brand logo" href="index.html">KMAdjei</a>
+
+        <!-- Toggler/collapsible Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <!-- Font-awesome hamburger bars - Menu -->
+            <i class="fas fa-bars"></i>
+          </span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#coding-challenges">Coding Challenges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- <div class="nav-container" id="nav-container">
         <div class="logo">
           <a href="index.html">KMAdjei</a>
         </div>
@@ -42,7 +77,7 @@
             <li><a href="#projects">Projects</a></li>
           </ul>
         </nav>
-      </div>
+      </div> -->
     </header>
 
     <main id="main-container">
