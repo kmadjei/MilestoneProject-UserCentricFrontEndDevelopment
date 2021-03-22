@@ -513,8 +513,27 @@ footer a i:hover {
     }
 }
 
-@media screen and  (max-width: 375px) {
+@media screen and  (max-width: 400px) {
+    .skill-cards-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     #skills .s-card {
         height: auto;
     }
+
+    .coding-card-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-card-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
