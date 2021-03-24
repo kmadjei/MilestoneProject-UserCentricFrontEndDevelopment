@@ -23,12 +23,12 @@ This project is a web developer portfolio built for showing of my skills in orde
 
 ### Scope
 
-- 
-
-
-### Structure   
+- Provide informative content for users to evaluate developers skills
+- Show variety of deployed projects to determine the that the developer has the skills to adapt to changing work flow
+- Structure the portfolio content in a way that drives user's curiosity while reducing information overload
 
 ### Skeleton
+
 - wireframes
 
 
@@ -41,19 +41,21 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+---
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Fixed Navigation Bar - allows users to quickly go to any section of the web page without worrying about scrolling all the way back to the beginning.
+- Home page - Landing page with CTA for users inviting them to engage with the contents of the website
+- About page - Provides opportunity to learn about the developer
+- Skills page - gives users to analyze what they user knows and can accomplish
+- Coding Challenge page - Shows the developers growth and enthusiasm for programming
+- Projects page - provides users with the chance of viewing the user's skills live in action. This further enhances users trust in the abilities of the developer
+- Footer section -  gives the users better experience of remembering and engaging with key information presented on the web site.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+### Features to implement in the Future
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
 - Making individual landing pages for each project with slides of project mockups, incase recruiters were not interested in deploying the whole project
+- Add  a contact page with an email contact form
 
 ## Technologies Used
 ---
@@ -73,6 +75,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing
 ---
+
+- used html validator to get rid of the youtube links and correct articla tag for coding section
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -116,7 +120,7 @@ The easiest way to view the project is with github pages.And since the files hav
     - [PHP and MySQL logo](https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/8a997691-8bf1-4258-9b29-795bf5ddd085/Image/7e869e0f81db34c1a99a7906a2fe8cae/php_mysql.png)
     - [Wordpress](https://www.google.com/url?sa=i&url=https%3A%2F%2Fthemeskills.com%2Fchange-login-wordpress-logo-url-no-plugin%2F&psig=AOvVaw2kyAvoemK5eqo1Y7pgTNNS&ust=1615696052991000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjMpIC3rO8CFQAAAAAdAAAAABAD)
 
-- The background hero image was obtained from Pexels.com by [Markus Spiske](https://www.pexels.com/photo/matrix-background-1089438/)
+- The background hero image was obtained from Pexels.com (created by [Markus Spiske](https://www.pexels.com/photo/matrix-background-1089438/))
 
 - The logos for the project and coding challenge card were created using [Free Logo Design](https://editor.freelogodesign.org/?lang=en&logo=ec4667e0-7afa-4580-bab4-d973522c34d9) and 3d paint App for windows 10.
 
