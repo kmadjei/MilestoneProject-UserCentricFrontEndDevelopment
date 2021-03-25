@@ -148,7 +148,10 @@ header a {
 
 .section-title::after {
 
-    /* Code Idea from Bedimcode portfolio video */
+    /* 
+    Code Idea from Bedimcode portfolio video -
+    https://github.com/bedimcode/responsive-portfolio-website-JhonDoe
+    */
     position: absolute;
     content: "";
     width: 60px;
@@ -535,5 +538,5 @@ footer a i:hover {
         justify-content: center;
         align-items: center;
     }
-
+ 
 }

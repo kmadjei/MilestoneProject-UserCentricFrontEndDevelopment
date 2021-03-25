@@ -27,7 +27,7 @@ This project is a web developer portfolio built for showing of my skills in orde
 - Show variety of deployed projects to determine the that the developer has the skills to adapt to changing work flow
 - Structure the portfolio content in a way that drives user's curiosity while reducing information overload
 
-### Skeleton
+### Layout 
 
 - wireframes
 
