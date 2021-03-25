@@ -76,6 +76,19 @@ This section is also where you would share links to any wireframes, mockups, dia
 ## Testing
 ---
 
+1. [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    1. Directly injected style.css code using the **W3C Validator** - resulting in meeting the requirements CSS3
+
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+     
+
+
 - used html validator to get rid of the youtube links and correct articla tag for coding section
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
