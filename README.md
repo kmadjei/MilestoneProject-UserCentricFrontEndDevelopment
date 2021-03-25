@@ -78,15 +78,10 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 1. [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input)
     1. Directly injected style.css code using the **W3C Validator** - resulting in meeting the requirements CSS3
-
-<p>
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
+    <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />
-    </a>
-</p>
-     
+
 
 
 - used html validator to get rid of the youtube links and correct articla tag for coding section
