@@ -17,6 +17,7 @@ This project is a web developer portfolio built for showing of my skills in orde
 
 - **Project Goals**
     - Design a Full Stack Software Developer portfolio website that allows for recruiters / future employers to contact me with potential job opportunity.
+
 - **User Objectives**
     - The portfolio will provide recruiters background information about the Developer.
     - After evaluating the portfolio, the recruiters will be able to decide whether to proceed with contacting the candidate for a potential position at company " X ". 
@@ -24,21 +25,14 @@ This project is a web developer portfolio built for showing of my skills in orde
 ### Scope
 
 - Provide informative content for users to evaluate developers skills
-- Show variety of deployed projects to determine the that the developer has the skills to adapt to changing work flow
+- Show variety of deployed projects to determine that the developer has the skills to adapt to changing work flow
 - Structure the portfolio content in a way that drives user's curiosity while reducing information overload
+- Add animations to enhance the liveliness of website
 
-### Layout 
+### Wireframes
 
-- wireframes
-
-
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- [Mobile View]()
+- [Laptop and Tablet Views]()
 
 ## Features
 ---
@@ -77,37 +71,34 @@ This section is also where you would share links to any wireframes, mockups, dia
 ---
 
 1. [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input)
-    1. Directly injected style.css code using the **W3C Validator** - resulting in meeting the requirements CSS3
+    1. Directly injected style.css code using the **W3C CSS Validator** - resulting in meeting the requirements CSS3
     <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />
 
+2. [W3C HTML Validation](https://validator.w3.org/#validate_by_input)
+    1. By directly injecting HTML code into the **W3C HTML Validator** you can verify it passes HTML5 markup requirements
+        - Results shows no errors or warnings found 
+
+### User Stories Testing
+
+1. As a new user I want to be able to clearly navigate the page 
+    1. Any user is able to navigate the page without getting lost due to fixed navigation bar and the responsive nature of the webpage
+
+2. As a recruiter I would want to know if the developer pays attention to details
+    1. Website prototype was sent out to friends for feedback on user experiences
+    2. The Results:
+        - Bootstrap Navigation bar corrected with font Awesome Hamburger Icon and cdn was changed from 4.5 to version 4.6
+        - Grammar mistakes in the throughout the page was spotted and corrected
 
 
-- used html validator to get rid of the youtube links and correct articla tag for coding section
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 ---
 
-The easiest way to view the project is with github pages.And since the files have already been uploaded just click on the link below for access:
+The easiest way to view the project is with github pages. And since the files have already been uploaded just click on the link below for access:
 
 [🚀LAUNCH🚀](https://kmadjei.github.io/MilestoneProject-UserCentricFrontEndDevelopment/)
  
@@ -116,9 +107,21 @@ The easiest way to view the project is with github pages.And since the files hav
 ## Credits
 ---
 
+###
+
+- W3C school code examples for creating cards served as a basis for creating the cards for the skill, coding challenge, and project sections
+    - CSS animation examples for cards were also utilized such as:
+        - Box-shadow
+        - 3D card 180* rotation
+        - Image overlay
+
+- Code from the Bootstrap resume project, presented by the Code Institute Learning platform, was utilized for the footer social icons of the webpage 
+
+- Utilized bootstrap template for Navbar
+
 ### Content
 
-- The text for all the sections of the website are original work
+- The text for all the sections of the website are  my original work
 
 ### Media
 
