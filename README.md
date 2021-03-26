@@ -1,7 +1,7 @@
 ![CBC logo](https://canadianbusinesscollege.com/wp-content/uploads/2020/09/CBC-New-Logo-Website.png)
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-# Your Project's Name
+# User Centric Front End Development Milestone Project
 ---
 
 Welcome to my first Milestone project for the Full Stack Software Program at the Canadian Business School, in collaboration with Code Institute.
@@ -60,8 +60,8 @@ This project is a web developer portfolio built for showing of my skills in orde
 - [CSS](https://www.w3schools.com/css/default.asp)
     - The project uses **CSS** to simplify further enhance content and structure of the site.
 
-- [Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-    - The project uses **Bootstrap 4.5** to create responsive elements and styling for the contents.
+- [Bootstrap 4.6](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    - The project uses **Bootstrap 4.6** to create responsive elements and styling for the contents.
 
 - [Font Awesome](https://fontawesome.com/icons?d=gallery&p=1)
     - **Font Awesome** was used for creating the social icons and the collapsible menu on small screen devices
