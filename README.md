@@ -31,8 +31,8 @@ This project is a web developer portfolio built for showing of my skills in orde
 
 ### Wireframes
 
-- [Mobile View]()
-- [Laptop and Tablet Views]()
+- [Mobile View](https://github.com/kmadjei/MilestoneProject-UserCentricFrontEndDevelopment/tree/main/assets/wireframes/mobile-view)
+- [Desktop and Tablet Views](https://github.com/kmadjei/MilestoneProject-UserCentricFrontEndDevelopment/tree/main/assets/wireframes/Desktop-and-Tablet)
 
 ## Features
 ---
@@ -80,6 +80,20 @@ This project is a web developer portfolio built for showing of my skills in orde
     1. By directly injecting HTML code into the **W3C HTML Validator** you can verify it passes HTML5 markup requirements
         - Results shows no errors or warnings found 
 
+3. **Device Responsiveness**
+    1. Once project is deployed, using chrome or any browser of your choice , right click on the page and select inspect or push **F12** on your keyboard
+    2. On chrome - I utilized breakpoints to view my website for different screen devices 
+    3. I proceeded to write the media queries:
+        1. The about section was changed to a 1 column view on mobile devices
+        2. The footer section containing **_container_** class was adjusted to one column view using the grid display for mobile view
+        3. The header utilized bootstrap classes so no query was required for it
+        4. A responsive text using `vw` was utilized for the Home page text for views less than 475px
+
+4. **Broken Link Test**
+    - While the project was deployed live, I proceeded to click through the navigation links, social, links, Project Links, and the coding challenge links to make sure they operated how they should
+        - Navigation links directed user to desired page
+        - All other links open new window tab when clicked 
+
 ### User Stories Testing
 
 1. As a new user I want to be able to clearly navigate the page 
@@ -92,9 +106,6 @@ This project is a web developer portfolio built for showing of my skills in orde
         - Grammar mistakes in the throughout the page was spotted and corrected
 
 
-
-
-
 ## Deployment
 ---
 
@@ -102,6 +113,24 @@ The easiest way to view the project is with github pages. And since the files ha
 
 [🚀LAUNCH🚀](https://kmadjei.github.io/MilestoneProject-UserCentricFrontEndDevelopment/)
  
+ - **Deploying to Github**
+    1. The project was built using the light weight IDE, [VS Code](https://code.visualstudio.com/).
+    2. Upon completion, [Gitbash](https://git-scm.com/downloads) was downloaded for windows 10
+    3. Gitbash was then utilized to upload the project on to Github via it's CMD. Note that a github account was created to host the project.
+        1. After download, right click on project root folder and click *Gitbash Here*
+        2. When open enter `git init` to initialize the folder 
+        3. On github, a repository was created for the project.
+        4. After creating the repository, the instructions for  deployment via the CMD was followed
+        5. In the instructions, `git add .` was used to add all files and then the `git commit` was entered after typing it in the command line
+        6. All files were then pushed online using `git push` after confirming login validations.
+    4. In the settings of the Git hub repository for the project, the Git hub pages section shows a drop down from which the where the main branch folder is selected. 
+    5. The main branch houses the index file which can deploy the static page of the project.
+    6. After saving your changes, a hosting site is generated for the project 
+
+- **Deploy Locally**
+    1. Click this [download](https://github.com/kmadjei/MilestoneProject-UserCentricFrontEndDevelopment/archive/refs/heads/main.zip) link of the project from github repository. 
+    2. Once downloaded, unzip the file or go into the zip folder and copy the files to your preferred location.
+    3. Double click on the index file to view the project on your local desktop once the download process is completed
 
 
 ## Credits
