@@ -168,7 +168,7 @@ The easiest way to view the project is with github pages. And since the files ha
 ### Acknowledgements
 
 - In order to design and build this project, I sought for  advice from fellow developers on YouTube and modeled my portfolio project after them:
-    -[Bedimcode](https://www.youtube.com/watch?v=6cidbUHNZRQ&t=1061s) 
+    - [Bedimcode](https://www.youtube.com/watch?v=6cidbUHNZRQ&t=1061s) 
     - [Career Foundry](https://www.youtube.com/watch?v=5j7orGKJslg&t=716s&ab_channel=CoderFoundry)
 
 - The [Mini-Bootstrap Project](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) walk-through also expanded my knowledge in using bootstrap for my front end design along with design ideas for the footer of the website
