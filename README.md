@@ -55,7 +55,7 @@ This project is a web developer portfolio built for showing of my skills in orde
 ---
 
 - [HTML](https://www.w3schools.com/html/default.asp) 
-    - In the project **HTML** was used for creating the basic information structure of th site
+    - In the project **HTML** was used for creating the basic information structure of the site
 
 - [CSS](https://www.w3schools.com/css/default.asp)
     - The project uses **CSS** to simplify further enhance content and structure of the site.
